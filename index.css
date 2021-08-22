@@ -41,7 +41,7 @@ a{
   }  
   /* Estilo del boton cuando el menú está expandido*/
   .check-hamburguesa:checked ~ .label {
-    background-color: rgb(252, 174, 6);
+    background-color: rgb(255, 154, 2);
   }
   .check-hamburguesa:checked ~ .label:hover{
       background-color: rgba(0, 0, 0, 0);
@@ -75,7 +75,7 @@ a{
     display: flex;
     align-items:center;
     justify-content: space-around;
-    background-color: rgb(252, 174, 6);
+    background-color: rgb(255, 154, 2);
     display: none;
   }
 /* Navbar */
@@ -85,7 +85,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: rgb(252, 174, 6);
+    background-color: rgb(255, 154, 2);
 }
 .container-logo{
     width: 20%;
@@ -263,7 +263,7 @@ a{
     flex-wrap: wrap;      
   }  
   .card-01{
-    background:rgb(255, 154, 2);
+    background:rgb(255, 154, 2);;
     position: relative;
     flex: 1;
     max-width: 450px;  
