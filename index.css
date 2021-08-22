@@ -266,7 +266,7 @@ a{
     background:rgb(255, 154, 2);;
     position: relative;
     flex: 1;
-    max-width: 450px;  
+    max-width: 260px;  
     margin: 5%;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
@@ -280,10 +280,10 @@ a{
       justify-content: space-around;       
   }
   .logocloud{
-    width: 50%;    
+    width: 40%;    
   }
   .titulocloud{    
-    font-size: 3em ;
+    font-size: 2em ;
     font-weight: 700;
     font-family: sans-serif;   
   } 
@@ -545,11 +545,8 @@ a{
     .p-logo-footer{
         font-size: .7em;
     }
-    @media (max-width:800px){
-        .card-01{
-          flex: 100%;
-          max-width: 600px;
-        } 
+   
+        
         
     }
     /* login */
@@ -561,7 +558,7 @@ a{
         height: auto;
     }    
 
-}
+
 @media (max-width: 540px){
     .titulo-about{
         font-size: 2em;
@@ -662,11 +659,21 @@ a{
     /*cards*/
     .card-01{
         padding:22%;
-        font-size: 0.5em;
+        font-size: 1em;
         }
     .logocloud{
         width: 40%;
     }    
+}
+@media (max-width: 307px)
+{
+    .card-01{
+        padding:22%;
+        font-size: 0.5em;
+        }
+        .logocloud{
+            width: 20%;
+        } 
 }
 
 
