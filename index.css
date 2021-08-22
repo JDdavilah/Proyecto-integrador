@@ -162,7 +162,8 @@ a{
 }
 /* Portada */
 .container-portada{
-    width: 100%;    
+    width: 100%;  
+    background-color: #86898f;  
 }
 .img-portada{
     width: 100%;    
@@ -171,6 +172,7 @@ a{
 .section-about{
     width: 100%;
     background-color: white;
+    
 }
 .container-titulo-about{
     width: 100%;
