@@ -44,7 +44,7 @@ a{
     background-color: rgb(252, 174, 6);
   }
   .check-hamburguesa:checked ~ .label:hover{
-      background-color: black;
+      background-color: rgba(0, 0, 0, 0);
   }  
   .menu-nav-hamburguesa{
     margin-top:0;
